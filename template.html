@@ -5,7 +5,7 @@
 <head>
    <meta charset="utf-8">
    <title>Div Tag Template</title>
-   
+   <link href="main.css" rel="stylesheet" type="text/css">
    <style>
     body {
 	    background-image:url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);background-attachment:fixed;
@@ -71,6 +71,39 @@
 	#mainHeader ul li a:hover{
 			color: Darkgreen;
 		}
+	section#content {
+	float: left;
+	width: 600px;
+	padding: 0 10px 0 25px;
+	margin-bottom: 10px;
+	border-right: 1px solid #7f7f7f;
+}
+
+section#content p {
+	color: #666;
+	line-height: 1.6;
+	margin-bottom: 10px;
+}
+
+aside#hobbies {
+	font-size: 90%;
+	float: right;
+	width: 450px;
+	margin-bottom: 20px;
+}
+
+footer#pageFooter {
+	clear: both;
+	border-top: 2px solid #7f7f7f;
+	padding: 20px;
+}
+
+footer#pageFooter p {
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 10px;
+	color: #666;
+}
 	
 	
    </style>
@@ -85,7 +118,7 @@
   
     <!--page header- logo, title, links -->
 	
-	<div id="mainHeader">
+	<header id="mainHeader">
 	
 	    <h1> Exploring computer science</h1>
 	    <h2> My collection of programming projects and assighments</h2>
@@ -95,43 +128,43 @@
 		<div id="mainNav">
 		  <ul id="pages">
 		     <li>
-			  <a href="#"> scratch </a>
+			  <a href="#">scratch</a>
 			  </li>
 			  <li>
-			  <a href="#"> Paython </a>
+			  <a href="#">Paython</a>
 			  </li>
 			  <li>
-			  <a href="#"> Java </a>
+			  <a href="#">Java</a>
 			  </li>
 			  <li>
-			  <a href="#"> Final project </a>
+			  <a href="#">Final project</a>
 			  </li>
 			  <li>
-			  <a href="#"> Home </a>
+			  <a href="#">Home</a>
 			  </li>
 		
 		  </ul>
 		
 		</div> <!--end navigation links -->
 		
-	</div> <!--end header -->
+	</header> <!--end header -->
 	
 	<!-- Section content-->
-	<div id="Content">
+	<section id="Content">
 	       <p> replace this text with project and assigments examples</p>
-	</div> <!-- end Content-->
+	</section> <!-- end Content-->
 	
-	<!-- Aside-->
-	<div id="hobbies">
+	<!-- Aside Content-->
+	<aside id="hobbies">
 	<p> place things you like here;
 	photos, links, videos, etc. </p>
 	
-	</div> <!-- end Hobbies-->
+	</aside> <!-- end Hobbies-->
 	
-	<!-- Footer content-->
-	<div id="pageFooter">
+	<!-- Footer Content-->
+	<footer id="pageFooter">
 	<p> auther, contact info, copyright </p>
-	</div> <!--end Footer-->
+	</footer> <!--end Footer-->
 	
   </div> <!--end wrapper -->
   
