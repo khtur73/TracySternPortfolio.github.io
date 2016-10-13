@@ -44,6 +44,7 @@ header#mainHeader ul li a {
 	padding: 0 20px;
 	border-right: 1px solid black;
 	text-decoration: none;
+       
 }
 
 header#mainHeader ul li a:hover{
@@ -58,7 +59,7 @@ section#content {
 	width: 600px;
 	padding: 0 10px 0 25px;
 	margin-bottom: 10px;
-	border-right: 1px solid #7f7f7f;
+	border-right: 6px dotted black;
 }
 
 section#content p {
@@ -70,8 +71,10 @@ section#content p {
 aside#hobbies {
 	font-size: 90%;
 	float: right;
+ text-align: right;
 	width: 450px;
 	margin-bottom: 20px;
+border-left: 6px dotted black;
 }
 
 footer#pageFooter {
