@@ -68,7 +68,7 @@ section#content p {
 aside#hobbies {
 	font-size: 90%;
 	float: right;
-        text-align: right;
+        text-align: left;
 	width: 450px;
 	margin-bottom: 20px;
         border-left: 6px dotted green;
