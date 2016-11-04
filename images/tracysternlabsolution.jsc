@@ -1,0 +1,27 @@
+@Java
+method blop()
+{
+   while( hasFlower() )
+   {
+   if( isClear(AHEAD) )
+   {
+   plant();
+     hop();
+ }
+  if( isWater(AHEAD) )
+  {
+turn(RIGHT);
+}
+if(isFlower(AHEAD))
+{
+turn(RIGHT);
+}
+   }
+}
+@@
+//solution T.S.
+method main()
+{
+Jeroo blob=new Jeroo(0,0,575);
+blob.blop();
+}

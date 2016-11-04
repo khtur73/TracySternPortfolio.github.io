@@ -1,0 +1,12 @@
+@Java
+method putflowers()
+{
+}
+@@
+//Tracy Stern lab//
+method main()
+{
+Jeroo a = new Jeroo(0,0);
+
+
+}
